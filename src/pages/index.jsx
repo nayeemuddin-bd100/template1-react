@@ -18,7 +18,7 @@ function Page() {
         {/*  ===============START=======================  */}
         
 
-        <header class="hero container-fluid border-bottom">
+        <header className="hero container-fluid border-bottom">
           {/* Navigation Bar */}
           <Nav />
 

@@ -4,58 +4,58 @@ import profile2 from "../../assets/imgs/profile-2.png";
 function Pricing() {
     return (
       <div>
-        <div id="pricing" class="block-17 px-4 space-between-blocks">
-          <div class="container">
-            <div class="block-17__header col-lg-8 col-xl-7 mx-auto text-center px-0">
-              <h1 class="block__title mb-3">PRICING</h1>
-              <p class="block__paragraph">
+        <div id="pricing" className="block-17 px-4 space-between-blocks">
+          <div className="container">
+            <div className="block-17__header col-lg-8 col-xl-7 mx-auto text-center px-0">
+              <h1 className="block__title mb-3">PRICING</h1>
+              <p className="block__paragraph">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry’s standard
               </p>
             </div>
-            <div class="block-17__card row flex-column-reverse flex-lg-row justify-content-center">
-              <div class="testimonial-card-3 text-center col-lg-6 px-0 d-flex align-items-center justify-content-center">
-                <div class="px-4 px-lg-5">
-                  <img class="person__avatar" src={profile2} />
-                  <p class="testimonial-card-3__paragraph my-4">
+            <div className="block-17__card row flex-column-reverse flex-lg-row justify-content-center">
+              <div className="testimonial-card-3 text-center col-lg-6 px-0 d-flex align-items-center justify-content-center">
+                <div className="px-4 px-lg-5">
+                  <img className="person__avatar" src={profile2} />
+                  <p className="testimonial-card-3__paragraph my-4">
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry. Lorem Ipsum has been the industry’s
                     standard dummy text ever since the 1500s, when an unknown
                     printer took a galley of type and scrambled it to make a
                     type specimen book.
                   </p>
-                  <div class="flex-grow-1 d-flex flex-column mb-3">
-                    <span class="person__name">Ali Boukeroui</span>
-                    <span class="person__info my-1">indiehackers.com</span>
-                    <span class="person__rating">
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
+                  <div className="flex-grow-1 d-flex flex-column mb-3">
+                    <span className="person__name">Ali Boukeroui</span>
+                    <span className="person__info my-1">indiehackers.com</span>
+                    <span className="person__rating">
+                      <i className="fas fa-star"></i>
+                      <i className="fas fa-star"></i>
+                      <i className="fas fa-star"></i>
+                      <i className="fas fa-star"></i>
+                      <i className="fas fa-star"></i>
                     </span>
                   </div>
                 </div>
-                <span class="testimonial-card-3__quote-symbol">
-                  <i class="fas fa-quote-left"></i>
+                <span className="testimonial-card-3__quote-symbol">
+                  <i className="fas fa-quote-left"></i>
                 </span>
               </div>
-              <div class="cta-card col-lg-5 px-0">
-                <div class="plan-card text-center">
-                  <h6 class="plan-card__name mb-0">Free Shipping</h6>
-                  <p class="discount mt-3 mb-0 d-flex align-items-center justify-content-center">
-                    <span class="discount__old-price mx-2">$300</span>
-                    <span class="discount__percentage mx-2">50% off</span>
+              <div className="cta-card col-lg-5 px-0">
+                <div className="plan-card text-center">
+                  <h6 className="plan-card__name mb-0">Free Shipping</h6>
+                  <p className="discount mt-3 mb-0 d-flex align-items-center justify-content-center">
+                    <span className="discount__old-price mx-2">$300</span>
+                    <span className="discount__percentage mx-2">50% off</span>
                   </p>
-                  <p class="plan-card__price my-2">$149</p>
-                  <span class="plan-card__duration">
+                  <p className="plan-card__price my-2">$149</p>
+                  <span className="plan-card__duration">
                     90 Days Money Back Guarenteed
                   </span>
-                  <ul class="plan-features list-unstyled mt-5 mb-0">
-                    <li class="plan-features__li">
-                      <span class="plan-features__li-icon mx-1">
+                  <ul className="plan-features list-unstyled mt-5 mb-0">
+                    <li className="plan-features__li">
+                      <span className="plan-features__li-icon mx-1">
                         <svg
-                          class="bi bi-check2-circle"
+                          className="bi bi-check2-circle"
                           width="1em"
                           height="1em"
                           viewBox="0 0 16 16"
@@ -72,12 +72,12 @@ function Pricing() {
                           />
                         </svg>
                       </span>
-                      <span class="mx-3">The Watch</span>
+                      <span className="mx-3">The Watch</span>
                     </li>
-                    <li class="plan-features__li">
-                      <span class="plan-features__li-icon mx-1">
+                    <li className="plan-features__li">
+                      <span className="plan-features__li-icon mx-1">
                         <svg
-                          class="bi bi-check2-circle"
+                          className="bi bi-check2-circle"
                           width="1em"
                           height="1em"
                           viewBox="0 0 16 16"
@@ -94,12 +94,12 @@ function Pricing() {
                           />
                         </svg>
                       </span>
-                      <span class="mx-3">+Bonus: Accessories</span>
+                      <span className="mx-3">+Bonus: Accessories</span>
                     </li>
-                    <li class="plan-features__li">
-                      <span class="plan-features__li-icon mx-1">
+                    <li className="plan-features__li">
+                      <span className="plan-features__li-icon mx-1">
                         <svg
-                          class="bi bi-check2-circle"
+                          className="bi bi-check2-circle"
                           width="1em"
                           height="1em"
                           viewBox="0 0 16 16"
@@ -116,13 +116,13 @@ function Pricing() {
                           />
                         </svg>
                       </span>
-                      <span class="mx-3">Lifetime Mobile App</span>
+                      <span className="mx-3">Lifetime Mobile App</span>
                     </li>
-                    <li class="mt-5">
-                      <a href="#" class="d-block btn btn-primary px-5 mx-auto">
+                    <li className="mt-5">
+                      <a href="#" className="d-block btn btn-primary px-5 mx-auto">
                         Buy Now
                       </a>
-                      <small class="d-block mt-2 text-center">
+                      <small className="d-block mt-2 text-center">
                         208 Left. Discount ends after 2 weeks
                       </small>
                     </li>
