@@ -1,4 +1,5 @@
 import img3 from "../../assets/imgs/img-3.png";
+import MoreItem from "./item";
 
 function MoreDetails() {
     return (
@@ -22,58 +23,50 @@ function MoreDetails() {
               </div>
               <div className="col-lg-8 col-xl-6">
                 <div className="row">
+
+
                   <div className="col-md-6 mb-2-1rem">
-                    <div className="card-1 card-1--selected text-center">
-                      <span className="card-1__symbol mx-auto mb-4">
-                        <i className="fas fa-camera-retro"></i>
-                      </span>
-                      <h3 className="card-1__title mb-2">Camera Available</h3>
-                      <p className="card-1__paragraph">
-                        Lorem Ipsum is simply dummy text of the printing and
+                    <MoreItem
+                      icon="fas fa-camera-retro"
+                      title="Camera Available"
+                      text="Lorem Ipsum is simply dummy text of the printing and
                         typesetting industry. Lorem Ipsum has been the
-                        industry’s standard.
-                      </p>
-                    </div>
+                        industry’s standard."
+                    ></MoreItem>
                   </div>
+                 
+                  
                   <div className="col-md-6 mb-2-1rem">
-                    <div className="card-1 text-center">
-                      <span className="card-1__symbol mx-auto mb-4">
-                        <i className="fas fa-leaf"></i>
-                      </span>
-                      <h3 className="card-1__title mb-2">Eco Friendly</h3>
-                      <p className="card-1__paragraph">
-                        Lorem Ipsum is simply dummy text of the printing and
+                    <MoreItem
+                      icon="fas fa-leaf"
+                      title="Eco Friendly"
+                      text="Lorem Ipsum is simply dummy text of the printing and
                         typesetting industry. Lorem Ipsum has been the
-                        industry’s standard.
-                      </p>
-                    </div>
+                        industry’s standard."
+                    ></MoreItem>
                   </div>
+
                   <div className="col-md-6 mb-2-1rem">
-                    <div className="card-1 text-center">
-                      <span className="card-1__symbol mx-auto mb-4">
-                        <i className="fas fa-cog"></i>
-                      </span>
-                      <h3 className="card-1__title mb-2">Readable in Sunlight</h3>
-                      <p className="card-1__paragraph">
-                        Lorem Ipsum is simply dummy text of the printing and
+                    <MoreItem
+                      icon="fas fa-cog"
+                      title=" Readable in Sunlight"
+                      text="Lorem Ipsum is simply dummy text of the printing and
                         typesetting industry. Lorem Ipsum has been the
-                        industry’s standard.
-                      </p>
-                    </div>
+                        industry’s standard."
+                    ></MoreItem>                    
                   </div>
+
                   <div className="col-md-6 mb-2-1rem">
-                    <div className="card-1 text-center">
-                      <span className="card-1__symbol mx-auto mb-4">
-                        <i className="fas fa-database"></i>
-                      </span>
-                      <h3 className="card-1__title mb-2">30 Days Battery Time</h3>
-                      <p className="card-1__paragraph">
-                        Lorem Ipsum is simply dummy text of the printing and
+                    <MoreItem
+                      icon="fas fa-database"
+                      title=" 30 Days Battery Time"
+                      text="Lorem Ipsum is simply dummy text of the printing and
                         typesetting industry. Lorem Ipsum has been the
-                        industry’s standard.
-                      </p>
-                    </div>
+                        industry’s standard."
+                    ></MoreItem>
                   </div>
+
+                  
                 </div>
               </div>
             </div>
